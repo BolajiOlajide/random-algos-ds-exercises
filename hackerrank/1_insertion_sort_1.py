@@ -1,10 +1,9 @@
 # https://www.hackerrank.com/challenges/insertionsort1/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign&isFullScreen=true&h_r=next-challenge&h_v=zen
 
 def insertionSort1(n, arr):
-    array_length = len(arr)
     unsorted_value = arr[n - 1]
 
-    for x in range(array_length, 0, -1):
+    for x in range(n, 0, -1):
         index_to_check = x - 2
 
         lower_match_found = arr[index_to_check] < unsorted_value
