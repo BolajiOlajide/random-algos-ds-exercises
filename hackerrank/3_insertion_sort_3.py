@@ -1,3 +1,5 @@
+# running time n^2
+
 def insertion_sort(l):
     for i in range(1, len(l)):
         j = i-1
