@@ -5,7 +5,7 @@
  var replaceElements = function(arr) {
   var lastIndx = arr.length - 1;
 
-  return arr.map((elem, idx) => {
+  return arr.map((_, idx) => {
       if (idx === lastIndx) {
           return -1;
       }
